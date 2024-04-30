@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Shop = () => {
+export const Inflatables = () => {
     return (
         <div>
             <h1>Merchandise</h1>
