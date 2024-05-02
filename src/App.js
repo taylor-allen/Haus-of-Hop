@@ -1,9 +1,10 @@
 import './styles/App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { Navigation } from './components/navigation';
-import { Inflatables } from './components/inflatables';
-import { ContactUs } from './components/contactUs';
-import { Home } from './components/home';
+import { Footer } from './components/footer';
+import { Home } from './pages/home';
+import { Inflatables } from './pages/inflatables';
+import { ContactUs } from './pages/contactUs';
 
 export const App = () => {
   return (
@@ -14,6 +15,7 @@ export const App = () => {
         <Route path="/inflatables" element={<Inflatables />} />
         <Route path="/contactUs" element={<ContactUs />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 };

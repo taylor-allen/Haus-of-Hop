@@ -2,6 +2,11 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    background: #ffffffa4;
+    border-radius: 15px;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
     
 }
 
@@ -31,4 +36,9 @@
     align-items: center;
     text-align: center;
     padding: 5%;
+    margin-top: 5%;
+}
+
+.footerContainer{
+    background-color: rgb(43, 43, 43);
 }

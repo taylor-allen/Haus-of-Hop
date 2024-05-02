@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 100%) {
   .responsive-container {
     padding: 10px;  
   }
@@ -11,6 +11,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: url('../images/celebrateBG2.png');
+  background-size: cover;
 
 }
 
