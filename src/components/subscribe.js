@@ -12,7 +12,7 @@ export const Subscribe = () => {
           aria-label="email address"
           aria-describedby="email address"
         />
-        <Button variant="outline-light" id="button-addon2">
+        <Button variant="primary" id="button-addon2">
           Subscribe
         </Button>
       </InputGroup>
