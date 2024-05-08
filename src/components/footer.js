@@ -21,11 +21,9 @@ export const Footer = () => {
       fluid
       className="footerContainer"
       style={{
-        position: "fixed",
         bottom: 0,
         left: 0,
-        color: "#fff",
-        textDecoration: "none",
+        color: "#fff"
       }}
     >
       <Row className="text-center align-items-center px-4 mt-3">
@@ -42,25 +40,28 @@ export const Footer = () => {
         <Col lg={true}>
           <Link
             to="/inflatables"
-            style={{ textDecoration: "none", color: "#fff" }}
+            className="infs"
           >
             Inflatables
           </Link>
           <Link
             to="/yardgames"
-            style={{ textDecoration: "none", color: "#fff", display: "block" }}
+            style={{ display: "block" }}
+            className="infs"
           >
             Yard Games
           </Link>
           <Link
             to="/yardcards"
-            style={{ textDecoration: "none", color: "#fff", display: "block" }}
+            style={{ display: "block" }}
+            className="infs"
           >
             Yard Cards
           </Link>
           <Link
             to="/eventsgallery"
-            style={{ textDecoration: "none", color: "#fff", display: "block" }}
+            style={{ display: "block" }}
+            className="infs"
           >
             Events Gallery
           </Link>
@@ -68,30 +69,38 @@ export const Footer = () => {
         <Col lg={true}>
           <Link
             to="/blog"
-            style={{ textDecoration: "none", color: "#fff", display: "block" }}
+            style={{ display: "block" }}
+            className="infs"
           >
             Blog
           </Link>
           <Link
             to="/faqs"
-            style={{ textDecoration: "none", color: "#fff", display: "block" }}
+            style={{ display: "block" }}
+            className="infs"
           >
             FAQs
           </Link>
           <Link
             to="/contactus"
-            style={{ textDecoration: "none", color: "#fff", display: "block" }}
+            style={{ display: "block" }}
+            className="infs"
           >
             Contact Us
           </Link>
           <Link
             to="/privacypolicy"
-            style={{ textDecoration: "none", color: "#fff", display: "block" }}
+            style={{ display: "block" }}
+            className="infs"
           >
             Privacy Policy
           </Link>
         </Col>
-        <Col lg={true}><Subscribe/></Col>
+        <Col lg={true}>
+          <div>
+            <Subscribe />
+          </div>
+        </Col>
       </Row>
       <Row className="py-5 px-4">
         <Col lg={true}>
@@ -116,8 +125,8 @@ export const Footer = () => {
           </div>
         </Col>
         <Col lg={true}>
-          <div className="d-flex justify-content-end" style={{ color: "#fff" }}>
-            &copy; 2021 Haus of Hop
+          <div className="d-flex justify-content-end" style={{ color: "#fff", fontSize: "small" }}>
+            &copy; 2022 Haus of Hop
           </div>
         </Col>
       </Row>

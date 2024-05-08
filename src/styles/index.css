@@ -12,6 +12,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url('../images/celebrateBG2.png');
   background-size: cover;
-
+  margin-bottom: 0;
 }
 

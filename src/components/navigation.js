@@ -27,7 +27,7 @@ export const Navigation = () => {
           >
             {/* Navbar Drop Down for Inflatables */}
             <NavDropdown title={<span style={{ color: '#327774' }}>Inflatables</span>} id="navbarScrollingDropdown">
-              <NavDropdown.Item as={Link} to="/all">
+              <NavDropdown.Item as={Link} to="/inflatables">
                 All Inflatables
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/drybouncehouses">
@@ -46,7 +46,9 @@ export const Navigation = () => {
                 Holiday Rates
               </NavDropdown.Item>
             </NavDropdown>
+            <div className="vr"></div>
             <Nav.Link as={Link} to="/dunktanks" style={{ color: '#327774' }}>Dunk Tanks</Nav.Link>
+            <div className="vr"></div>
             {/* Navbar Drop Down for Party Extras */}
             <NavDropdown title={<span style={{ color: '#327774' }}>Party Extras</span>} id="navbarScrollingDropdown">
               <NavDropdown.Item as={Link} to="/yardgames">
@@ -56,13 +58,15 @@ export const Navigation = () => {
                 Tables, Chairs, & Power
               </NavDropdown.Item>
             </NavDropdown>
+            <div className="vr"></div>
             <Nav.Link as={Link} to="/yardcards" style={{ color: '#327774' }}>Yard Cards</Nav.Link>
+            <div className="vr"></div>
             {/* Navbar Drop Down for More */}
             <NavDropdown title={<span style={{ color: '#327774' }}>More</span>} id="navbarScrollingDropdown">
               <NavDropdown.Item as={Link} to="/customergallery">
                 Customer Gallery
               </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/eventgallery">Event Gallery</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/eventsgallery">Events Gallery</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/about">About...</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/faq">FAQs</NavDropdown.Item>
               <NavDropdown.Item as={Link} to="/reviews">Reviews</NavDropdown.Item>

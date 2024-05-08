@@ -37,8 +37,28 @@
     text-align: center;
     padding: 5%;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-.footerContainer{
+.footerContainer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border: solid 2px red;
     background-color: rgb(43, 43, 43);
+}
+
+.infs {
+    color: #fff;
+    text-decoration: none; 
+}
+
+.infs:hover {
+    color: #327774;
+}
+
+.social-icons > *:hover {
+    color: #327774;
 }
