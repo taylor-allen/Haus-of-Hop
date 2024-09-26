@@ -62,17 +62,3 @@ This successfully pushed the changes from the `Cards` branch to the remote `main
 - You used a rebase and `git push origin HEAD:main` to push your changes to the correct remote branch.
 
 This process involved syncing branches, resolving tracking issues, and finally pushing to the remote.
-```
-
-### Steps to add this file to a GitHub repo:
-
-1. Save the above content as `README.md` on your local machine.
-2. In your terminal, navigate to the directory where your GitHub repository is.
-3. Run the following commands to add, commit, and push the `README.md` file:
-   ```bash
-   git add README.md
-   git commit -m "Added troubleshooting summary"
-   git push origin main
-   ```
-
-Now, the summary will be in the repository's main branch, visible on GitHub.
